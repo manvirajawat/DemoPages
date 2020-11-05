@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Document</title>
+</head>
+<body>
+    <h1 id="someTxt"></h1>
+    <!--<script type="text/javascript" src="home.js"></script>-->
+    <script>
+    	let students = `[
+	        {
+		        "name": "Qazi",
+		        "age": 25,
+		        "height": 170
+	        },
+	        {
+                "name": "Rafeh",
+		        "age": 28,
+		        "height": 180   
+	        }
+        ]`
+
+        //console.log(students);
+        //console.log(students[0]);
+        console.log(JSON.parse(students));
+        console.log(JSON.parse(students)[1]);
+        console.log(JSON.parse(students)[1].name);
+    </script>
+</body>
+</html>
